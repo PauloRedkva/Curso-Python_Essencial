@@ -1,0 +1,31 @@
+"""
+Programação orientada a objetos - POO
+
+- POO é um paradigma de programação que utiliza de mapeamento de objetos do mundo real para modelos computacionais.
+
+- Paradigma de programação é a forma/metodologia para pensar / desenvolver sistemas.
+
+Principais elementos da Orientação a Objetos
+- Classe - > Modelo do objeto no mindo real sendo representado computacionalmente.
+- Atributo -> Característica do Objeto.
+- Método -> Comportamento do Objeto (funções)
+- Construtor -> Método especial utilizado para criar os objetos
+- Objeto ->Instância da classe.
+
+"""
+
+numero = 10
+
+print(numero)
+print(type(numero))
+
+nome = "Geek"
+print(nome)
+print(type(nome))
+
+class Produto:
+    pass
+
+ps4 = Produto()
+print(ps4)
+print(type(ps4))
